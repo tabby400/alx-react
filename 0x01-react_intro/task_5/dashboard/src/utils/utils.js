@@ -1,0 +1,1 @@
+export const getLatestNotification = () => '<strong>Urgent requirement</strong> - complete by EOD';
