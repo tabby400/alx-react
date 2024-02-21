@@ -12,7 +12,6 @@ export default function printBestStudents(object) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
-// converting to a reg javascript object
   const JSObject = filtered.toJS();
 
   Object.keys(JSObject).map((key) => {
