@@ -16,4 +16,8 @@ const theObject = {
 // Convert the example obj to immutable map
 const immutableMap = getImmutableObject(theObject);
 
-console.log(immutableMap);
+module.exports = {
+    getImmutableObject,
+    exampleObject,
+    immutableMap
+};
